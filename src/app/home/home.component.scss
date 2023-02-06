@@ -3,7 +3,7 @@
     .all-movies {
       width: 75%;
       min-height: calc(100vh - 80px);
-      border-right: 1px solid #fdc827;
+      border-right: 1px solid #000000;
       padding: 20px 40px;
       font-family: "Roboto", sans-serif;
       .top {
@@ -14,11 +14,11 @@
         h4 {
           text-transform: uppercase;
           font-weight: bold;
-          border-left: 5px solid #ff9900;
+          border-left: 5px solid #000000;
           padding-left: 10px;
         }
         .view-all {
-          color: #ff9900;
+          color: #000000;
           cursor: pointer;
         }
       }
@@ -53,7 +53,7 @@
       h4 {
         text-transform: uppercase;
         font-weight: bold;
-        border-left: 5px solid #ff9900;
+        border-left: 5px solid #000000;
         padding-left: 10px;
       }
       .movies {
@@ -69,7 +69,7 @@
           }
         }
         .view-all {
-          color: #ff9900;
+          color: #000000;
           text-align: right;
           margin-top: 30px;
           cursor: pointer;
@@ -89,7 +89,7 @@
     }
   }
   .view-all{
-    color: #ff9900;
+    color: #000000;
     text-align: right;
     margin-top: 30px;
     cursor: pointer;
