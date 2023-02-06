@@ -1,20 +1,93 @@
 .login-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  .logo {
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Creepster', cursive;
+    letter-spacing: 10px;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+  }
+
+  .desc {
+    font-size: 34px;
+    font-family: 'Aladin', cursive;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 200px;
+    right: 50px;
+    text-align: right;
+    width: 1200px;
+  }
+
+  .film {
+    top: 50px;
+    left: 50px;
+    height: 100%;
+    width: 100%;
+  }
+
+  .login-form {
+    width: 500px;
+    height: 300px;
+    justify-content: center;
+    color: black;
+    padding: 20px;
+    background: rgb(221, 221, 221);
+    border-radius: 10px;
+    position: absolute;
+    box-shadow: 5px 5px 5px #ffffff;
+
+    .form-group {
+      margin-top: 20px;
+    }
+
+    label {
+      font-weight: bold;
+    }
+
+    .btn-container {
+      position: relative;
+
+      .btn {
+        margin-top: 30px;
+      }
+
+      .error {
+        position: absolute;
+        top: 32px;
+        right: 0px;
+        color: red;
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 400px) {
+  .login-container {
     width: 100%;
     height: 100vh;
     display: flex;
     color: white;
     justify-content: center;
     align-items: center;
-    position: relative;
+
     .logo {
       font-size: 70px;
       font-weight: bold;
       font-family: 'Creepster', cursive;
       letter-spacing: 10px;
-      position: absolute;
-      top: 50px;
-      right: 50px;
     }
+
     .desc {
       font-size: 34px;
       font-family: 'Aladin', cursive;
@@ -25,14 +98,13 @@
       text-align: right;
       width: 1200px;
     }
+
     .film {
-      top: 50px;
-      left: 50px;
-      height: 100%;
-      width: 100%;
+
     }
+
     .login-form {
-      width: 500px;
+      width: 300px;
       height: 300px;
       justify-content: center;
       color: black;
@@ -41,17 +113,22 @@
       border-radius: 10px;
       position: absolute;
       box-shadow: 5px 5px 5px #ffffff;
+
       .form-group {
         margin-top: 20px;
       }
+
       label {
         font-weight: bold;
       }
+
       .btn-container {
         position: relative;
+
         .btn {
           margin-top: 30px;
         }
+
         .error {
           position: absolute;
           top: 32px;
@@ -61,4 +138,4 @@
       }
     }
   }
-  
+}
